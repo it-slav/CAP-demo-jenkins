@@ -1,4 +1,3 @@
 applications:
 - name: prod-jenkins-app
   memory: 64M
-  domain: cap.it-slav.net
