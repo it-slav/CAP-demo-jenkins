@@ -9,7 +9,7 @@ echo "looking for string $TESTSTRING at $APPSITE"
 
 curl -ks  $APPSITE|grep $TESTSTRING 
 EXITCODE=$?
-echo "$EXITCODE"
+#echo "$EXITCODE"
 
 if [ $EXITCODE -eq 0 ]
 then
