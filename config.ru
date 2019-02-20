@@ -5,6 +5,7 @@ class Web < Sinatra::Base
   get "/" do
     %{
       <h1>CAP app pushed by jenkins</h1>
+      <h1>ProdReady</h1>
     }
   end
 
