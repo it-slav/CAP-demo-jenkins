@@ -11,7 +11,7 @@ curl -ks  $APPSITE|grep $TESTSTRING
 EXITCODE=$?
 echo "$EXITCODE"
 
-if [ "$EXITCODE" == "0" ]
+if [ $EXITCODE -eq 0 ]
 then
 	echo "Hurray, test passed"
 else
