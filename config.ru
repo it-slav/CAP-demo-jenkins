@@ -4,9 +4,7 @@ require "json"
 class Web < Sinatra::Base
   get "/" do
     %{
-      <h1>Hi, I'm your first CF web app</h1>
-      <h1>Hi,pappa</h1>
-      <h2><a href="/env.json">Check my ENV out</a></h2>
+      <h1>CAP app pushed by jenkins</h1>
     }
   end
 
