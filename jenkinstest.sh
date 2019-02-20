@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APPSITE=https://jenkinsapp-app3.cap.it-slav.net
+APPSITE=https://jenkins-push.cap.suselinux.info
 TESTSTRING=ProdReady
 
 echo "-----------------------------------------------"
