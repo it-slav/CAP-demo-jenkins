@@ -1,4 +1,3 @@
 applications:
 - name: jenkins-push
-  random-route: true
   memory: 64M
