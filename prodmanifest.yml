@@ -1,3 +1,0 @@
-applications:
-- name: prod-jenkins-app
-  memory: 64M
