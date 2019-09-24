@@ -1,6 +1,6 @@
 #!/bin/sh
 
-APPSITE=https://jenkins-push.cap.suselinux.info
+APPSITE=https://jenkins-push.cap.mynet/
 TESTSTRING=ProdReady
 
 echo "-----------------------------------------------"
