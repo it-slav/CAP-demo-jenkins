@@ -1,7 +1,6 @@
 #!/bin/sh
 
-APPSITE=https://jenkins-push.cap.mynet/
-TESTSTRING=ProdReady
+source ./env_variables.sh
 
 echo "-----------------------------------------------"
 echo "START TESTS"
