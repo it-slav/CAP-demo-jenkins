@@ -5,7 +5,7 @@ class Web < Sinatra::Base
   get "/" do
     %{
       <h1>CAP app pushed by jenkins</h1>
-      <h1>Test</h1>
+      <h1>Testv1</h1>
       <img src="https://it-slav.net/~peter/backgrounds/suse_logo_1408x640_og-image.png" alt="Smiley face"> 
       <h2><a href="/env.json">Check my ENV out</a></h2>
     }
